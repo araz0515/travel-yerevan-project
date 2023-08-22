@@ -115,4 +115,16 @@ footer a:hover {
     font-size: 10px;
     padding: 8px 16px;
   }
+
+  section {
+    padding: 20px;
+  }
+
+  .about-me {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
