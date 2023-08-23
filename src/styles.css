@@ -254,6 +254,7 @@ h2 {
     max-width: 550px;
     margin: 50px auto;
     text-align: left;
+    grid-gap: 20px;
   }
 
   main h2 {
