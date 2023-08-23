@@ -73,11 +73,77 @@ main p {
   line-height: 24px;
   opacity: 0.5;
 }
+
 section {
   max-width: 1200px;
   margin: 0 auto;
 }
 
+section h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.card {
+  background: white;
+}
+
+.card h4 {
+  font-size: 24px;
+  color: #272044;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.card p {
+  color: #272044;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 306px;
+}
+
+.card h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+  margin: 0;
+}
+
+.card-info {
+  padding: 24px 32px;
+}
+
+.card .button {
+  background: #462cb2;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 16px 70px;
+  display: block;
+  margin: 24px auto;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -132,6 +198,22 @@ footer a:hover {
   grid-gap: 64px;
 }
 
+section.favorite-cafés {
+  background: #f8f8f8;
+  padding: 100px;
+}
+
+.favorite-cafés h1,
+h2 {
+  text-align: center;
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -157,6 +239,7 @@ footer a:hover {
 
   section {
     padding: 20px;
+    max-width: 650px;
   }
 
   .grid {
@@ -164,13 +247,13 @@ footer a:hover {
     grid-gap: 32px;
   }
 
-  section {
-    max-width: 650px;
-  }
-
   main {
     grid-template-columns: 1fr;
     max-width: 550px;
     margin: 50px auto;
+  }
+
+  .grid-3-columns {
+    grid-template-columns: 1fr;
   }
 }
