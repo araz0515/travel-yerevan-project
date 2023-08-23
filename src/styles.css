@@ -256,4 +256,12 @@ h2 {
   .grid-3-columns {
     grid-template-columns: 1fr;
   }
+
+  .favorite-cafés h1 {
+    font-size: 40px;
+  }
+
+  section.favorite-cafés {
+    padding: 0;
+  }
 }
