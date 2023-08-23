@@ -256,7 +256,9 @@ h2 {
     text-align: left;
     grid-gap: 20px;
   }
-
+  main h1 {
+    font-size: 30px;
+  }
   main h2 {
     text-align: left;
   }
@@ -266,7 +268,7 @@ h2 {
   }
 
   .favorite-cafés h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   section.favorite-cafés {
