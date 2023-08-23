@@ -258,7 +258,7 @@ h2 {
   }
   main h1 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
   main h2 {
     text-align: left;
@@ -270,7 +270,7 @@ h2 {
 
   .favorite-cafés h1 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
 
   section.favorite-cafés {
