@@ -337,4 +337,8 @@ h2 {
   .card-info {
     max-width: 600px;
   }
+
+  .gallery h3 {
+    font-size: 30px;
+  }
 }
