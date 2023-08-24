@@ -50,6 +50,12 @@ main {
 img {
   max-width: 100%;
 }
+
+.img-responsive {
+  width: 190px;
+  height: 190px;
+}
+
 main h2 {
   font-weight: 700;
   text-transform: uppercase;
@@ -146,6 +152,7 @@ section h2 {
   display: block;
   margin: 24px auto;
 }
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -216,6 +223,16 @@ h2 {
   grid-gap: 30px;
 }
 
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 40px 0;
@@ -275,5 +292,17 @@ h2 {
 
   section.favorite-cafés {
     padding: 0;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
