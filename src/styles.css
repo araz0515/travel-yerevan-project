@@ -227,6 +227,7 @@ section.favorite-cafés {
 .favorite-cafés h1,
 h2 {
   text-align: center;
+  margin: 20px;
 }
 
 .grid-3-columns {
@@ -276,9 +277,12 @@ h2 {
     padding: 50px 0;
   }
 
+  .card {
+    max-width: 650px;
+    margin: 0 auto;
+  }
   section {
     padding: 20px;
-    max-width: 650px;
   }
 
   .grid {
