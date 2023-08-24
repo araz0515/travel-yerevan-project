@@ -248,6 +248,10 @@ h2 {
   margin-bottom: 100px;
 }
 
+.gallery h3 {
+  margin-top: 0;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 40px 0;
